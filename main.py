@@ -33,7 +33,7 @@ if __name__ == "__main__":
     logger.info('calling auxiliary_module.some_function()')
     auxiliary.some_function()
     logger.info('done with auxiliary_module.some_function()')
-    compute_distance(logger)
+    compute_distance()
     if logger.hasHandlers():
         logger.handlers = []
         ch = logging.StreamHandler()
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     logger.info('calling auxiliary_module.some_function()')
     auxiliary.some_function()
     logger.info('done with auxiliary_module.some_function()')
-    compute_distance(logger)
+    compute_distance()
     print(dir(logger))
 
 

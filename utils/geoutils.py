@@ -5,5 +5,5 @@ logger = logging.getLogger("AddressTriangulation.utils.Geoutils")
 #logger = CustomAdapter.logger("AddressTriangulation.utils.Geoutils")
 
 
-def compute_distance(logger):
+def compute_distance():
     logger.info("Calculating distance")
