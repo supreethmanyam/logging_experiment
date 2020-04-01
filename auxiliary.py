@@ -1,12 +1,12 @@
 import logging
 
 # create logger
-module_logger = logging.getLogger('AddressTriangulation.auxiliary')
+module_logger = logging.getLogger('FeatureManagementService.auxiliary')
 
 
 class Auxiliary:
     def __init__(self):
-        self.logger = logging.getLogger('spam_application.auxiliary.Auxiliary')
+        self.logger = logging.getLogger('FeatureManagementService.auxiliary.Auxiliary')
         self.logger.info('creating an instance of Auxiliary')
 
     def do_something(self):
